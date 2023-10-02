@@ -2,4 +2,3 @@ CREATE TABLE user_cost AS SELECT user_id, SUM(op.price * op.qty) AS cost FROM or
 SELECT u.id, u.name FROM user u JOIN user_cost uc ON uc.user_id = u.id HAVING MAX(cost);
 SELECT u.id, u.name, u.email, uc.cost FROM user u JOIN user_cost uc ON uc.user_id = u.id ORDER BY uc.cost DESC;
 DROP TABLE user_cost;
-SELECT
