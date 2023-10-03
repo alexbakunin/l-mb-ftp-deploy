@@ -1,6 +1,8 @@
 /node_modules
 /public/hot
 /public/storage
+/public/assets/admin/ckeditor5
+/public/assets/admin/ckfinder
 /storage/*.key
 /vendor
 .env
