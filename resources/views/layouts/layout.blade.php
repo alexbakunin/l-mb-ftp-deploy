@@ -44,7 +44,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('home') }}">Главная</a>
+                            <a class="nav-link" href="{{ route('home') }}">Главная - проверка ftp-deploy 18.01.2024</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('admin.index') }}">
