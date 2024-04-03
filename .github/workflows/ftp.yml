@@ -3,12 +3,12 @@ name: Deploy
 on:
   push:
     branches:
-    - master
+      - master
   pull_request:
     types:
       - closed
     branches:
-    - master
+      - master
 
 jobs:
   web-deploy:
