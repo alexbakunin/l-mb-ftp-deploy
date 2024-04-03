@@ -44,7 +44,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('home') }}">Главная22222</a>
+                            <a class="nav-link" href="{{ route('home') }}">Главная2222233333</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('admin.index') }}">
